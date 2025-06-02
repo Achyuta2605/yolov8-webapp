@@ -91,7 +91,7 @@ def main():
     st.sidebar.header("⚙️ Configuration")
     
     # Model path (your specific .pt model path)
-    model_path = r"C:\Major Project\MajorProjectWebApp\yolov8-streamlitapp\best2.pt"
+    model_path = "best2.pt"
     
     # Confidence threshold (exactly like your test script)
     conf_threshold = st.sidebar.slider(
